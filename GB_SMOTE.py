@@ -122,7 +122,7 @@ class GB_SMOTE(BaseEstimator, ClassifierMixin):
         else:
             kernelmatrix=all_X.dot(all_X.T)
         if len(self.p)>0:
-            new_KM,new_testX=self.augumentKernelMatrix(X_len,dim,kernelmatrix,self.newsamplenum)
+            new_KM,new_testX=self.augmentKernelMatrix(X_len,dim,kernelmatrix,self.newsamplenum)
         else:
             new_KM=kernelmatrix
             new_testX=kernelmatrix[X_len:,:]
