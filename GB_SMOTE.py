@@ -151,7 +151,7 @@ class GB_SMOTE(BaseEstimator, ClassifierMixin):
         else:
             kernelmatrix=all_X.dot(all_X.T)
         if len(self.p)>0:
-            new_KM,new_testX=self.augumentKernelMatrix(X_len,dim,kernelmatrix,self.newsamplenum)
+            new_KM,new_testX=self.augmentKernelMatrix(X_len,dim,kernelmatrix,self.newsamplenum)
         else:
             new_KM=kernelmatrix
             new_testX=kernelmatrix[X_len:,:]
@@ -186,7 +186,7 @@ class GB_SMOTE(BaseEstimator, ClassifierMixin):
         neg_safe=np.setdiff1d(neg_class,neg_kxi_index)
         return pos_err,pos_within_margin,pos_safe,neg_err,neg_within_margin,neg_safe
 
-    def augumentKernelMatrix(self,X_len,dim,kernelmatrix,n):
+    def augmentKernelMatrix(self,X_len,dim,kernelmatrix,n):
         p=self.p
         q=self.q
         delta=self.delta
