@@ -10,7 +10,6 @@ Our EASE implementation requires following dependencies:
 - [numpy](https://numpy.org/) (>=1.11)
 - [scipy](https://www.scipy.org/) (>=0.17)
 - [scikit-learn](https://scikit-learn.org/stable/) (>=0.21)
-- [imblearn](https://pypi.org/project/imblearn/) (>=0.2) (optional, for canonical resampling)
 
 
 ```
