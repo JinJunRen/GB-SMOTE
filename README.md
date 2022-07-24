@@ -23,7 +23,7 @@ git clone https://github.com/JinJunRen/GB-SMOTE
 
 | Parameters    | Description   |
 | ------------- | ------------- |
-| `clf` | *object, optional (default=`sklearn.sklearn.svm.SVC()`)* <br> Built-in `fit()`, `predict()`, `predict_proba()` methods are required. |
+| `clf` | *object, (default=`sklearn.sklearn.svm.SVC()`)* <br> Built-in `fit()`, `predict()`, `predict_proba()` methods are required. |
 | `C`    | *float, optional (default=100)* <br>  Regularization parameter. The strength of the regularization is inversely proportional to C. Must be strictly positive. <br>  The penalty is a squared l2 penalty. |
 
 ----------------
