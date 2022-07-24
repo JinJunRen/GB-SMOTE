@@ -37,7 +37,7 @@ git clone https://github.com/JinJunRen/GB-SMOTE
 | `score(self, X, y)` | Returns the average precision score on the given test data and labels. |
 | `calcKxi(self,X,y)` | Calcuate the slack variables of samples X. |
 | `partitionInstance(self,X,y)` | Divide each class into three sets, e.g., error set, margin set and safe set. |
-| `selectInstances(self,X,in_margin,pos_safe,n)` | Select n sample-pairs from #M^+ and S^+, respectively, and create a synthesized sample set. <br> Note that: the elements in in_margin and pos_safe are the indexs of samples in X.. |
+| `selectInstances(self,X,in_margin,pos_safe,n)` | Select n sample-pairs from #M^+ and S^+, respectively, and create a synthesized sample set. <br> Note that: the elements in in_margin and pos_safe are the indexs of samples in X. |
 | `augmentKernelMatrix(self,X_len,dim,kernelmatrix,n)` | Augment kernelmatrix based on the dim(it equals the dimension of dataset, that is, the sum of the length of both training set and test set) and n (the number of the generated samples).  |
 
 ----------------
@@ -50,7 +50,7 @@ In this python script we provided an example of how to use our implementation of
 | ------------- | ------------- |
 | `data` | *String*<br> Specify a dataset. |
 | `ker`  | *String,(default=`rbf`)*<br> Specify the type of kernel of SVM. |
-| `n`  | *Integer,(default=`n`)*<br> Specify the number of n-fold cross-validation. |
+| `n`  | *Integer,(default=`5`)*<br> Specify the number of n-fold cross-validation. |
 
 ----------------
 
