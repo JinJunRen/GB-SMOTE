@@ -15,7 +15,7 @@ year = {2023},
 issn = {0031-3203},
 doi = {https://doi.org/10.1016/j.patcog.2022.108992},
 url = {https://www.sciencedirect.com/science/article/pii/S0031320322004721},
-author = {Jinjun Ren, Yuping Wang, Yiu-ming Cheung, Xiao-Zhi Gao and Xiaofang Guo}
+author = {Jinjun Ren and Yuping Wang and Yiu-ming Cheung and Xiao-Zhi Gao and Xiaofang Guo}
 }
 ```
 
