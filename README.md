@@ -21,7 +21,7 @@ author = {Jinjun Ren and Yuping Wang and Yiu-ming Cheung and Xiao-Zhi Gao and Xi
 
 # Install
 
-Our EASE implementation requires following dependencies:
+Our GB-SMOTE implementation requires following dependencies:
 - [python](https://www.python.org/) (>=3.7)
 - [numpy](https://numpy.org/) (>=1.11)
 - [scipy](https://www.scipy.org/) (>=0.17)
